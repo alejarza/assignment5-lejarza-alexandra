@@ -2,26 +2,99 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+header {
+  background: #a7869e;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+
+header nav li {
+  display: inline-block;
+  max-width: 200px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  background: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 15px;
+  z-index: 99999;
+}
+
+footer nav li {
+  display: inline-block;
+  max-width: 200px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #48546f;
+  margin: 0 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1,
+p {
+  color: #48546f;
+}
+
+.top-section {
+
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 150px;
 }
 
 .contact-form {
-  background: violet;
+  background: #d3949f;
   padding: 20px;
   max-width: 500px;
   border-radius: 4px;
   color: white;
-  font-family: sans-serif;
-  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  margin: 20px auto;
+  text-align: left;
 }
 
 .label_input_wrap {
   display: block;
 }
+
+label {
+  font-weight: bold;
+}
+
 .reset input,
 .submit input {
-  background: orange;
+  background: #48546f;
   color: white;
-  padding: 5px 20px;
+  padding: 10px 20px;
   display: inline;
 }
 
