@@ -59,8 +59,20 @@ p {
   color: #48546f;
 }
 
-.top-section {
+h1::first-line {
+  text-decoration: underline;
+}
 
+p::first-line {
+  font-variant: small-caps;
+}
+
+p::selection {
+   background: #a7869e;
+}
+
+a:hover {
+  color: #48546f;
 }
 
 .container {
